@@ -15,3 +15,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+h3:hover {
+  color: rgb(2, 7, 35);
+}
+</style>
