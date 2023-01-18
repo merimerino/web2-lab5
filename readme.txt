@@ -2,6 +2,10 @@ Raspakirani zip se pokreće na sljedeći način:
 -- npm install
 -- npm run serve
 
+Deploy na Renderu:
+
+https://web2-lab5-22iv.onrender.com/
+
 Popis (ne)implementiranih stvari:
 
     interpolation/one-way binding - Da: components/EuroToHrkConverter.vue, linija 32
