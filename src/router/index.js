@@ -1,18 +1,16 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeComponent from "@/views/HomeView.vue";
-import AboutComponent from "@/views/AboutView.vue";
-import BrazilComponent from "@/views/BrazilView.vue";
-import HawaiiComponent from "@/views/HawaiiView.vue";
-import JamaicaComponent from "@/views/JamaicaView.vue";
-import PanamaComponent from "@/views/PanamaView.vue";
+import EuroToHrk from "@/views/EuroToHrk.vue";
+import NotFoundPage from "../views/NotFoundPage.vue";
 
 const routes = [
   { path: "/", name: "Home", component: HomeComponent },
-  { path: "/about", name: "About", component: AboutComponent },
-  { path: "/brazil", name: "brazil", component: BrazilComponent },
-  { path: "/hawaii", name: "hawaii", component: HawaiiComponent },
-  { path: "/jamaica", name: "jamaica", component: JamaicaComponent },
-  { path: "/panama", name: "panama", component: PanamaComponent },
+  { path: "/euroToHrk", name: "EURO to HRK", component: EuroToHrk },
+  {
+    path: "/:catchAll(.*)*",
+    name: "NotFound",
+    component: NotFoundPage,
+  },
 ];
 
 const router = createRouter({
