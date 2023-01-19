@@ -21,8 +21,8 @@ Popis (ne)implementiranih stvari:
     koristiti barem jedan lifecycle hook - Da: components/ExchangeRate.vue (mounted) 
     
     routing (više stranica): Da: router/index.js rute Home, Conversion i Exchange Rates; Riješen 404 Not Found
-        aplikacija mora biti bookmarkable, tako da rade linkovi (ne samo na root, već i moj-web.com/stranica1, moj-web.com/stranica2) - Ne
-        dinamičko usmjeravanje s 404 stranicom ("catch all") - radi lokalno, ne prepoznaje(?)
+        aplikacija mora biti bookmarkable, tako da rade linkovi (ne samo na root, već i moj-web.com/stranica1, moj-web.com/stranica2) - Da - lokalno
+        dinamičko usmjeravanje s 404 stranicom ("catch all") - Da - lokalno
     
     (barem) dvije komponente 
         komponenta bez stanja, koristiti properties -  Da: components/ConversionTitle.vue
