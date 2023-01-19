@@ -16,12 +16,12 @@ Popis (ne)implementiranih stvari:
     
     computed properties -  Da: components/ConversionTitle.vue, computed: titleMessage
     
-    barem jedan scoped style - Da: components/ConversionTitle.vue, style scoped na dnu
+    barem jedan scoped style - Da: components/ConversionTitle.vue i components/EchangeRate.vue, style scoped na dnu 
     
-    koristiti barem jedan lifecycle hook - Da: components/EuroToHrkConverter.vue, linija 53 (mounted) 
+    koristiti barem jedan lifecycle hook - Da: components/ExchangeRate.vue (mounted) 
     
-    routing (više stranica): Da: router/index.js rute Home i Conversion; Riješen 404 Not Found
-        aplikacija mora biti bookmarkable, tako da rade linkovi (ne samo na root, već i moj-web.com/stranica1, moj-web.com/stranica2)
+    routing (više stranica): Da: router/index.js rute Home, Conversion i Exchange Rates; Riješen 404 Not Found
+        aplikacija mora biti bookmarkable, tako da rade linkovi (ne samo na root, već i moj-web.com/stranica1, moj-web.com/stranica2) - Ne
         dinamičko usmjeravanje s 404 stranicom ("catch all") - radi lokalno, ne prepoznaje(?)
     
     (barem) dvije komponente 
@@ -31,4 +31,5 @@ Popis (ne)implementiranih stvari:
     barem jedna komponenta mora emitirati barem jedan event - Da: components/EuroToHrkConverter.vue, linija 13 i linija 26 (keyup)
     
     store (Pinia) - ne
-    asinkroni dohvat podataka s backenda - ne
+    
+    asinkroni dohvat podataka s backenda - Da: components/ExchangeRate.vue (mounted) - asinkroni fetch sa "backenda"(lokalni file)

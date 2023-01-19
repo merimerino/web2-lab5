@@ -1,0 +1,24 @@
+{
+  "exchangeRates": [
+    {
+      "date": "Friday 1 January 2021",
+      "value": "1 EUR = 7.4985 kn"
+    },
+    {
+      "date": "Wednesday 1 January 2020",
+      "value": "1 EUR = 7.4479 kn"
+    },
+    {
+      "date": "Tuesday 1 January 2019",
+      "value": "1 EUR = 7.4077 kn"
+    },
+    {
+      "date": "Monday 1 January 2018",
+      "value": "1 EUR = 7.4386 kn"
+    },
+    {
+      "date": "Sunday 1 January 2017",
+      "value": "1 EUR = 7.5479kn"
+    }
+  ]
+}

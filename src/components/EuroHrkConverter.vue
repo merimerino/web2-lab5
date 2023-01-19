@@ -49,10 +49,7 @@
       k2e() {
         this.valueEUR = parseFloat((this.vauleHRK / 7.53450).toFixed(5));
       },
-    },
-    mounted() {
-    console.log(`The component is now mounted.`)
-  }
+    }
     
   };
   </script>
